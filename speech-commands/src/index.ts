@@ -15,6 +15,7 @@
  * =============================================================================
  */
 
+import '@tensorflow/tfjs-backend-webgl';
 import * as tf from '@tensorflow/tfjs-core';
 
 import {BrowserFftSpeechCommandRecognizer} from './browser_fft_recognizer';
